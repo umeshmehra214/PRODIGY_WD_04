@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="icon" type="image/x-icon" href="img/photo.jpeg"> -->
+    <title>Portfolio | Personal Website</title>
+
+    <!--Linking the CSS Files -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--Linking the Js Files -->
+    <script src="script.js"></script>
+
+
+    <!--Adding Box Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+    <!-- Start Navbar Section -->
+    <header>
+        <a href="#" class="logo">Umesh <span> Mehra</span></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <ul class="navbar active">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Service</a></li> 
+            <li><a href="#contact">Contact</a></li>
+            <div class="bx bx-moon" id="darkmode"></div>
+        </ul>
+    </header>
+    <!-- End Navbar Section -->
+
+
+    <!-- Start Home Section -->
+    <section class="home" id="home">
+        <div class="social">
+            <a href=""><i class='bx bxl-github'></i></a>
+            <a href=""><i class='bx bxl-linkedin'></i></a>
+            <a href=""><i class='bx bxl-instagram'></i></a>
+        </div>
+        <div class="home-img">
+            <img src="/img/model.png" alt="">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Umesh Mehra</h1>
+            <h2>Full Stack Developer</h2>
+            <p>I am full stack developer from kota rajasthan and i am complete my gruduation from gurukul college ranpur kota</p>
+            <a href="" class="btn">Download CV</a>
+        </div>
+    </section>
+    <!-- End Home Section -->
+
+
+    <!-- Start About Section -->
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+            <span>Introducation</span>
+        </div>
+        <div class="about-container">
+            <div class="about-img">
+                <img src="/img/model.png" alt="">
+            </div>
+            <div class="about-text">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus nobis consectetur, iure illum soluta porro adipisci fuga. Natus quasi minus libero, nostrum tempora ea quia possimus expedita! Animi, explicabo deleniti?</p>
+                <div class="information">
+                    <div class="info-box">
+                        <i class='bx bx-phone-call'></i>
+                        <span>+91 9521806043</span>
+                    </div>
+                    <div class="info-box">
+                        <i class='bx bxl-gmail' ></i>
+                        <span>umeshmehra214@gmail.com</span>
+                    </div>
+                </div>
+                <a href="" class="btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+    <!-- End About Section -->
+
+
+    <!-- Start Skills Section -->
+    <section class="skills" id="skills">
+        <div class="heading">
+            <h2>Skills</h2>
+            <span>My Skills</span>
+        </div>
+        <div class="skills-containar">
+            <div class="bars">
+                <div class="bars-box">
+                    <h3>HTML</h3>
+                    <span>95%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar html-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>CSS</h3>
+                    <span>85%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar css-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>JavaScript</h3>
+                    <span>75%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar js-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>Python</h3>
+                    <span>90%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar python-bar"></div>
+                </div>
+                <div class="bars-box">
+                    <h3>React</h3>
+                    <span>80%</span>
+                    <div class="light-bar"></div>
+                    <div class="percent-bar react-bar"></div>
+                </div>
+            </div>
+            <div>
+                <img src="img/model.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- End Skills Section -->
+
+
+    <!-- Start Service Section -->
+    <section class="services" id="services">
+        <div class="heading">
+            <h2>Services</h2>
+            <span>Our Services</span>
+        </div>
+        <div class="services-container">
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <a href="#">Learn More</a> 
+            </div>
+            <div class="services-box">
+                <i class="bx bx-server"></i>
+                <h3>Backend Development</h3>
+                <a href="#">Learn More</a> 
+            </div>
+            <div class="services-box">
+                <i class="bx bx-brush"></i>
+                <h3>UI/UX</h3>
+                <a href="#">Learn More</a> 
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-android' ></i>
+                <h3>Apps Development</h3>
+                <a href="#">Learn More</a> 
+            </div>
+        </div>
+    </section>
+    <!-- End Service Section -->
+
+
+    <!-- Start Contact Section -->
+    <section class="contact" id="contact">
+        <div class="heading">
+            <h2>Contact</h2>
+            <span>Contact With Us</span>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+                <input type="button" value="Send" class="contact-button">
+            </form>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+
+    <!-- Start Footer Section  -->
+    <div class="footer">
+        <h2>Follow Us</h2>
+        <div class="footer-social">
+            <a href="#"><i class='bx bxl-linkedin' ></i></a>
+            <a href="https://github.com/umeshmehra214"><i class='bx bxl-github' ></i></a>
+            <a href="#"><i class='bx bxl-instagram' ></i></a>
+            <a href="https://www.instagram.com/umesh_mehra_01/"><i class='bx bxl-facebook'></i></a>
+        </div>
+    </div>
+    <div class="copyright">
+        UmEsh Mehra | All Right Resserved
+    </div>
+    <!-- End Footer Section  -->
+
+
+</body>
+</html>
